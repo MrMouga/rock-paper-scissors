@@ -117,7 +117,7 @@ rock.addEventListener('click', () => {
     
 
     else {
-        document.getElementById("comment").innerHTML="Click on the Play Again button to play an other game!"
+        document.getElementById("comment").innerHTML="Click on the button to play an other game!"
     }
 })
 
@@ -129,7 +129,7 @@ paper.addEventListener('click', () => {
     
 
     else {
-        document.getElementById("comment").innerHTML="Click on the Play Again button to play an other game!"
+        document.getElementById("comment").innerHTML="Click on the button to play an other game!"
     }
 })
 
@@ -140,7 +140,7 @@ scissors.addEventListener('click', () => {
     
 
     else {
-        document.getElementById("comment").innerHTML="Click on the Play Again button to play an other game!"
+        document.getElementById("comment").innerHTML="Click on the button to play an other game!"
     }
 })
 
