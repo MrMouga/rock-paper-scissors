@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Rock Paper Scissor</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <script src="game.js" async defer></script>
+    <body>
+
+    <div class="bg">
+        <div class="container">
+            <div class="title">
+                <h1 class="subtitle">Choose your card <br> and fight for your life</h1>
+                <p>3 cards ︱ First to 3 win︱ 2 Destinies</p>
+            </div>
+        </div>
+
+        <div class="container-2">
+            
+            <input type="image" src="img/rock.png" alt="rock" class="rock"/>
+            <input type="image" src="img/paper.png" alt="paper" class="paper"/>
+            <input type = "image" src="img/scissors.png" alt="scissors" class="scissors"/>
+        </div>
+        <div class="container-3">
+            <div class="ennemy-choice">
+                <img id ="witch-card" src="img/witch.png">
+            </div>
+
+            <div class="divider"></div>
+             
+            <div id="score">
+                <p id="score-text"><b>You:</b> 0 &emsp;&emsp;|&emsp;&emsp; <b>Witch:</b>0</p>
+                <p id="comment">Beware Human.</p>
+            </div>     
+        </div>
+    </div>
+
+    </body>
+</html>
