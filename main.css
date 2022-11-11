@@ -217,6 +217,6 @@ body, html{
         #button1{font-size: calc(9px + 0.8vw);}
         }
 
-        @media (min-width:4000px){
-            #button1{font-size: calc(9px + 0.9vw);}
-            }
+    @media (min-width:4000px){
+        #button1{font-size: calc(9px + 0.9vw);}
+        }
