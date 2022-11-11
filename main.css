@@ -129,6 +129,9 @@ body, html{
 @media (min-width:1200px){
     .container-2{width:40%; max-height:23%;}
     .container-3{width:40%;max-height:23%;}
+    .paper{ max-width: 9vw;height:100%;}
+    .rock{max-width:9vw;height:100%;}
+    .scissors{max-width:9vw;height:100%;}
     }
 
 
