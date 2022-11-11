@@ -67,14 +67,16 @@ body, html{
     align-content:center;
     gap:3vw;
     width:100vw;
-    max-width:40%;
+    max-width:60%;
+    max-height:30%;
     margin-top:1%;
     margin-bottom:3%;
     border-radius:15px;
     padding:2.5vh;
-    
- 
 }
+
+
+
 
 .rock{
     flex-grow:1;
@@ -115,14 +117,23 @@ body, html{
     justify-content:center;
     align-items:center;
     align-content:center;
-    max-width:40%;
-    max-height:40%;
+    max-width:60%;
+    max-height:30%;
     border:2px solid white;
     border-radius:15px;
     padding:3vh;
     
  
 }
+
+@media (min-width:1200px){
+    .container-2{max-width:40%; max-height:23%;}
+    .container-3{max-width:40%;max-height:23%;}
+    .rock {max-width:20%;}
+    .paper {max-width:20%;}
+    .scissors {max-width:20%;}
+    }
+
 
 .container-3 p{
     font-family:'Times New Roman', cursive;
@@ -203,4 +214,3 @@ display:block;
 margin:0.4em auto;
 }
 }
-
